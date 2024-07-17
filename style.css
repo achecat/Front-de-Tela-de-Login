@@ -1,0 +1,116 @@
+/*--CONFIG DA PAGINA--*/
+body{
+    background-image: linear-gradient(to bottom right, #0fa968, #fff);
+    font-family: verdana;
+    padding: 0;
+    margin: 0;
+}
+/*----CONFIG DA NAVBAR----*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+nav img{
+    height: 80px;
+    margin-left: 70px;
+}
+#navBar{
+    display: inline-flex;
+    text-align: center;
+    justify-content: right;
+    margin-right: 25px;
+    height: 80px;
+
+}
+#navBar a{
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    margin: auto 15px;
+    color: white;
+    font-size: 25px;
+    height: 30px;
+    line-height: 30px;
+}
+#navBar a:hover{
+    color: #11563a;
+    border-bottom: 3px solid #11563a;
+}
+/*---CSS DO BODY---*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding-left: 35px;
+    font-size: large;
+    color: #11563a;
+    background: white;
+    border-radius: 20px;
+    width: 450px;
+    height: 470px;
+}
+form h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#containerEmail, #containerSenha{
+    padding: 0;
+    margin-bottom: 35px;
+}
+section img{ /*--CSS DA IMG PRINCIPAL--*/
+    position: relative;
+    left: 200px;
+    width: 600px;
+}
+#senha, #email{
+    text-align: center;
+    width: 400px;
+    height: 45px;
+    margin-top: 5px;
+    border: 2px solid #6a9684;
+    border-radius: 20px;
+}
+#submit{
+    background-color: #0fa968;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    width: 406px;
+    height: 55px;
+    font-size: larger;
+}
+/*----CSS DO FOOTER----*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: white;
+}
+#sobreProject{
+    padding: 20px;
+    color: #11563a;
+    width: 70%;
+}
+#sobreProject p{
+    font-size: 20px;
+}
+#buttonFooter{
+    background-color: #11563a;
+    width: 20%;
+    height: 60px;
+    border-radius: 30px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
+#buttonFooter a{
+    text-decoration: none;
+    color: white;
+}
